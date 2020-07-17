@@ -1,0 +1,116 @@
+
+
+@media (max-width: 750px){
+  .Sign{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .warp {
+    box-sizing: border-box;
+    height: 100%;
+    padding: .1rem;
+    padding-top: .4rem;
+  }
+  .title {
+    display: flex;
+    justify-content: space-between;
+    height: .4rem;
+    align-items: center;
+  }
+  .icon {
+    width: .2rem;
+    height: .2rem;
+    margin-right: .08rem;
+  }
+  .refresh {
+    display: flex;
+    align-items: center;
+  }
+  .title-txt {
+    font-size: 0.18rem;
+    font-weight: bold;
+  }
+  .refresh-btn {
+    font-size: .16rem;
+    color: #32aeff;
+  }
+  #signature {
+    width: 100%;
+    height: 80%;
+    border: 1px solid #000;
+  }
+  .btn{
+    background-color: #FFF;
+    margin-top: .1rem;
+    text-align: right;
+    font-size: 12px;
+  }
+  .btn-item {
+    cursor: pointer;
+    background-color: #32aeff;
+    color: #fff;
+    font-size: .16rem;
+    display: inline-block;
+    width: 1.2rem;
+    height: .48rem;
+    text-align: center;
+    line-height: .48rem;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 750px){
+  .Sign{
+    height: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  .warp{
+    padding: 10px;
+    padding-top: 60px;
+  }
+  .warp .title{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .refresh{
+    display: inline-flex;
+    align-items: center;
+    height: 40px;
+    line-height: 40px;
+  }
+  .icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  #signature {
+    width: 100%;
+    height: 320px;
+    min-height: 320px;
+    max-height: 340px;
+    /* min-height: 260px; */
+    border: 1px solid #000;
+  }
+  .btn{
+    background-color: #FFF;
+    margin-top: 10px;
+    text-align: right;
+    font-size: 12px;
+  }
+  .btn-item {
+    background-color: #32aeff;
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    width: 120px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 5px;
+  }
+}
